@@ -4,7 +4,7 @@ FROM python:alpine3.10
 # Working directory
 WORKDIR /app
 
-# Copy code from current directory
+# Copy code from current directory to working directory
 COPY . /app
 
 RUN pip install -r requirements.txt
